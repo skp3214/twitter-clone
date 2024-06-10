@@ -36,6 +36,7 @@ POST.delete = async (id, req) => {
                     return { message: "Post deleted successfully" };
                 }
                 else {
+                    return {message:"You are not authorized"}
                 }
             };
         }
