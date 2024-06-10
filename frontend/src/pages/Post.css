@@ -1,0 +1,29 @@
+.container{
+    border:2px solid rgb(234, 213, 213);
+    margin: 5px;
+    background-color: rgb(234, 213, 213);
+    border-radius: 5px;
+}
+.inner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20px;
+    padding: 10px;
+}
+.name{
+    border:2px solid rgb(158, 219, 158);
+    background-color: rgb(158, 219, 158);
+    border-radius: 20px;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.name:nth-child(2):hover{
+    background-color: bisque;
+    cursor: pointer;
+}
